@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="title-container">
+      <h1>NETFLIX SERIALE</h1>
+    </div>
+    <div class="container">
+      <h2>premiery listopadowe</h2>
+      <table>
+          <tr>
+              <th>Tytuł</th>
+              <th>Sezon</th>
+              <th>Data premiery</th>
+          </tr>
+          <% results.forEach(function(r) { %>
+              <tr>
+                  <td><%= r.title %></td>
+                  <td><%= r.season %></td>
+                  <td><%= r.date %></td>
+              </tr>
+          <% }); %>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.main-container {
+  background-color: white;
+  }
+  .title-container {
+      text-align: center;
+      background-color: #EC472D;
+      color: white;
+  }
+  .container {
+    text-align: center;
+  }
+  table {
+      color: black;
+      margin: 0 auto;
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 70%;
+  }
+  td, th {
+      color: black;
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+  tr:nth-child(even) {
+      color: black;
+      background-color: #dddddd;
+  }

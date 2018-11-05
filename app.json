@@ -1,0 +1,7 @@
+{
+  "name": "Netflix series",
+  "description": "This app shows Netflix news",
+  "repository": "https://github.com/PaaS-SGGW/zadanie-0-konto-magdasid",
+  "keywords": ["node", "express", "heroku", "Postgres"],
+  "website": "https://boiling-savannah-39685.herokuapp.com"
+}
